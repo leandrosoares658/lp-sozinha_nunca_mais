@@ -1,0 +1,97 @@
+/* HERO */
+.hero {
+  min-height: 100vh;
+
+  /* IMAGEM NO FUNDO */
+  background:
+    linear-gradient(
+      to right,
+      rgba(253, 226, 220, 0.95) 0%,
+      rgba(253, 226, 220, 0.85) 0%,
+      rgba(253, 226, 220, 0.3) 0%,
+      rgba(253, 226, 220, 0.1) 0%
+    ),
+    url("/1.png");
+
+  background-repeat: no-repeat;
+  background-position: 85% center;
+  background-size: 100%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+
+/* CONTEÚDO */
+.hero-content {
+  max-width: 50%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+/* TEXTO */
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+}
+
+.hero-content h1 .red-hero {
+  color: #9d0017;
+  font-weight: bold;
+}
+
+.hero-content h2 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  margin-bottom: 32px;
+  color: #9d0017;
+  font-weight: 500;
+}
+
+.hero-badges {
+  display: block;
+  margin-top: 24px;
+  max-width: 320px;
+}
+
+
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .hero {
+    background:
+      linear-gradient(
+        rgba(253, 226, 220, 0.95),
+        rgba(253, 226, 220, 0.95)
+      ),
+      url("/casal.png");
+
+    background-position: center top;
+    background-size: cover;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .hero-badges {
+    margin: 24px auto 0;
+    align-self: center;
+    align-items: center;
+  }
+
+  .hero-content {
+    padding: 80px 8%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 22px;
+  }
+}
