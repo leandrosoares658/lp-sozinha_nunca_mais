@@ -30,24 +30,30 @@ export default function Benefits() {
 
             <div className="benefits-grid">
                 <div className="benefit-card">
-                    <h3>Relacionamentos Reais</h3>
+                    <img src="/public/icon-1.png" alt="Ícone de farol" />
+                    <h3>Faro da Loba</h3>
                     <p>
-                        Aprenda a se conectar emocionalmente com homens maduros que sabem
-                        o que querem.
+                        Saber filtrar homens que não querem nada sério logo no primeiro contato 
+                        e ter conversas leves e interessantes que despertam conexão genuína.
                     </p>
                 </div>
 
                 <div className="benefit-card">
-                    <h3>Mais Segurança Emocional</h3>
+                    <img src="/public/icon-3.png" alt="Ícone de escudo" />
+                    <h3>Dona de Sí</h3>
                     <p>
-                        Chega de ansiedade, insegurança e medo de ser deixada de lado.
+                        Evitar desgastes emocionais com perfis falsos ou manipuladores 
+                        e sentir-se confiante e segura para encontrar o amor.
                     </p>
                 </div>
 
                 <div className="benefit-card">
-                    <h3>Posicionamento Feminino</h3>
+                    <img src="/public/icon-2.png" alt="Ícone de alvo" />
+                    <h3>Tiro Certeiro</h3>
                     <p>
-                        Saiba se posicionar sem jogos, cobranças ou desgaste emocional.
+                        Usar as redes sociais com inteligência, ao seu favor e criar um 
+                        passo a passo para montar um perfil naturalmente atraente no 
+                        Facebook e Instagram.
                     </p>
                 </div>
             </div>

@@ -1,14 +1,13 @@
 .benefits {
-    padding: 100px 10%;
+    padding: 100px 200px;
     background-color: #fff;
     text-align: center;
 }
 
 .benefits h1 {
     font-size: 22px;
-    margin-bottom: 60px;
     color: #DF8693;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 20px 20px 20px;
     font-family: "Montserrat";
     font-weight: 700;
 }
@@ -38,21 +37,31 @@
 }
 
 .benefit-card {
-    background: #fde2dc;
+    background: #ffffff;
     padding: 40px 28px;
     border-radius: 24px;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 .benefit-card h3 {
-    font-size: 1.4rem;
-    margin-bottom: 16px;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #DF8693;
 }
 
 .benefit-card p {
-    font-family: "Montserrat", sans-serif;
-    color: #4a2e2e;
+    font-family: "Poppins";
+    font-weight: 18px;
+    font-weight: 500;
+    color: #9D0017;
     line-height: 1.6;
+}
+
+.benefit-card img {
+    width: 280px;
+    height: 280px;
 }
 
 /* MOBILE */
