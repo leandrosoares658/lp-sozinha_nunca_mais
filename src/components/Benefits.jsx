@@ -30,7 +30,7 @@ export default function Benefits() {
 
             <div className="benefits-grid">
                 <div className="benefit-card">
-                    <img src="/public/icon-1.png" alt="Ícone de farol" />
+                    <img src="/icon-1.png" alt="Ícone de farol" />
                     <h3>Faro da Loba</h3>
                     <p>
                         Saber filtrar homens que não querem nada sério logo no primeiro contato 
@@ -39,7 +39,7 @@ export default function Benefits() {
                 </div>
 
                 <div className="benefit-card">
-                    <img src="/public/icon-3.png" alt="Ícone de escudo" />
+                    <img src="/icon-3.png" alt="Ícone de escudo" />
                     <h3>Dona de Sí</h3>
                     <p>
                         Evitar desgastes emocionais com perfis falsos ou manipuladores 
@@ -48,7 +48,7 @@ export default function Benefits() {
                 </div>
 
                 <div className="benefit-card">
-                    <img src="/public/icon-2.png" alt="Ícone de alvo" />
+                    <img src="/icon-2.png" alt="Ícone de alvo" />
                     <h3>Tiro Certeiro</h3>
                     <p>
                         Usar as redes sociais com inteligência, ao seu favor e criar um 
