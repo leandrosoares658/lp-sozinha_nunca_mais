@@ -1,0 +1,75 @@
+.forwho {
+  min-height: 100vh;
+
+  /* IMAGEM NO FUNDO */
+  background:
+    linear-gradient(
+      to right,
+      rgba(253, 226, 220, 0.95) 0%,
+      rgba(253, 226, 220, 0.85) 0%,
+      rgba(253, 226, 220, 0.3) 0%,
+      rgba(253, 226, 220, 0.1) 0%
+    ),
+    url("/2.png");
+
+  background-repeat: no-repeat;
+  background-position: 85% center;
+  background-size: 100%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.forwho-container {
+  max-width: 50%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.forwho h2 {
+  font-size: 2.6rem;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.forwho h2 .bold {
+  color: #9d0017;
+  font-weight: 900;
+}
+
+.forwho-grid {
+  display: grid;
+  gap: 32px;
+}
+
+.forwho-item {
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.forwho-item p {
+  font-family: "Jost";
+  font-size: 17px;
+  line-height: 1.2;
+  color: #4a2e2e;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .forwho {
+    padding: 80px 6%;
+  }
+
+  .forwho-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .forwho h2 {
+    font-size: 2.2rem;
+  }
+}

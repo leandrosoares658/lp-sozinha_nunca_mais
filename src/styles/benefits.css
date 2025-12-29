@@ -18,7 +18,7 @@
 
 .benefits h2 {
     font-size: 18px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     font-family: "Jost";
     font-weight: 500;
 }
@@ -38,7 +38,7 @@
 
 .benefit-card {
     background: #ffffff;
-    padding: 40px 28px;
+    padding: 20px 5px;
     border-radius: 24px;
     text-align: center;
     align-items: center;
@@ -53,11 +53,11 @@
 }
 
 .benefit-card p {
-    font-family: "Poppins";
-    font-weight: 22px;
-    font-weight: 500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
     color: #9D0017;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 .benefit-card img {
