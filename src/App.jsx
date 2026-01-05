@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import ForWho from "./components/ForWho";
+import ContentGuide from "./components/ContentGuide";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Benefits />
       <ForWho />
+      <ContentGuide />
       <Footer />
     </>
   );

@@ -6,6 +6,7 @@ import "./styles/button.css";
 import "./styles/footer.css";
 import "./styles/benefits.css";
 import "./styles/forwho.css";
+import "./styles/contentguide.css";
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
