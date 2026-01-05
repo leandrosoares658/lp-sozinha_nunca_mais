@@ -64,23 +64,24 @@
 .forwho-grid {
     display: grid;
     text-align: left;
-    font-size: 17px;
     padding-left: 8%;
-    color: #54595F;
     margin-bottom: 8%;
     list-style-type: none;
 }
 
 .forwho-item {
     text-align: left;
+    padding-bottom: 10px;
 }
 
-.forwho-item p {
+.forwho-item .list-text {
     font-family: "Jost";
     font-size: 17px;
-    padding-left: 5%;
+    font-weight: 400;
+    padding-left: 2px;
     line-height: 1.2;
-    color: #9d0017;;
+    color: #54595F;
+    box-sizing: border-box;
 }
 
 .forwho-item .e-font-icon-svg{
@@ -88,6 +89,12 @@
     height: 18px;
     vertical-align: middle;
     color: #9d0017;
+    fill: #9d0017;
+}
+
+.forwho-item .e-font-icon-svg .list-text {
+    align-self: center;
+    padding-inline-start: 5px;
 }
 
 /* MOBILE */
