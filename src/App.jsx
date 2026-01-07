@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import ForWho from "./components/ForWho";
 import ContentGuide from "./components/ContentGuide";
+import Stories from "./components/Stories";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Benefits />
       <ForWho />
       <ContentGuide />
+      <Stories />
       <Footer />
     </>
   );

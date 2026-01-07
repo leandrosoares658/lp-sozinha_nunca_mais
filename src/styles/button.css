@@ -17,6 +17,24 @@
   transform: scale(1.1);
 }
 
+.cta_stories {
+  display: inline-block;
+  background: #2abc39;
+  color: #fff;
+  padding: 18px 50px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta_stories:hover {
+  background: #2abc39;
+  transform: scale(1.1);
+}
+
 
 @media (max-width: 900px) {
   .cta {
